@@ -1,6 +1,6 @@
 {
   "name": "@managed-components/indeed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Managed Component for Indeed",
   "main": "dist/index.js",
   "scripts": {
