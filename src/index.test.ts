@@ -34,6 +34,7 @@ describe('Indeed MC conversion event handler works correctly', () => {
       return undefined
     },
   }
+  fakeEvent.payload = {}
 
   sendEvent(settings.conversion_id, fakeEvent)
 
