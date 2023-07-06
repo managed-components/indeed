@@ -35,7 +35,7 @@ describe('Indeed MC conversion event handler works correctly', () => {
     },
   }
 
-  sendEvent(settings.conversion_id)(fakeEvent)
+  sendEvent(settings.conversion_id, fakeEvent)
 
   it('creates the request correctly', async () => {
     expect(fetchRequest).toBeTruthy()
