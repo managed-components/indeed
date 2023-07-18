@@ -18,10 +18,10 @@ const dummyClient = {
   fetch: () => undefined,
   set: () => undefined,
   execute: () => undefined,
-  return: () => {},
+  return: () => undefined,
   get: () => undefined,
-  attachEvent: () => {},
-  detachEvent: () => {},
+  attachEvent: () => undefined,
+  detachEvent: () => undefined,
 }
 
 describe('Indeed MC conversion event handler works correctly', () => {
